@@ -1,5 +1,8 @@
 * { box-sizing: border-box; }
-html { font-size: 62.5% }
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: none;
+}
 
 html, body {
   height: 100%;
@@ -27,9 +30,14 @@ body { padding: 10rem 10vw 15vh 10vw; }
   box-shadow: .7rem 0rem .6rem .1rem rgba(16,16,16,0.15);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   body { padding: 10rem 0vw 10rem 0vw; }
   #app::after { height: 10rem; }
 }
 
-#app { -webkit-text-size-adjust: none; }
+@media only screen and (max-width: 720px) {
+  html { font-size: 40%; }
+}
+@media only screen and (max-height: 400px) {
+  html { font-size: 40%; }
+}

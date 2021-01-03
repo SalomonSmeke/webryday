@@ -51,7 +51,7 @@ div.settings {
   backdrop-filter: blur(.8rem);
   display: grid;
   grid-auto-flow: row;
-  grid-row-gap: max(4rem, 8vh);
+  grid-row-gap: min(4rem, 6vh);
   align-content: center;
   text-align: center;
   justify-content: center;
