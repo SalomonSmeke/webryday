@@ -2,7 +2,6 @@
   background-color: #111;
   border: 1.6rem solid #cdc4b0;
   border-radius: .2rem;
-  min-width: 20rem;
   display: grid;
   grid-auto-flow: column;
   grid-column-gap: min(4vw, 5rem);
