@@ -19,15 +19,15 @@
   text-align: center;
   font-size: 4.7rem;
   line-height: 2.7rem;
-  opacity: 60%;
+  opacity: .6;
   transition: opacity 0.1s ease, font-size 0.1s ease, text-shadow 0.1s ease;
 }
 .close_open .action_btn label:hover {
   font-size: 5rem;
   line-height: 2.8rem;
-  opacity: 100%;
+  opacity: 1;
 }
-.accessible .action_btn label { opacity: 100%; }
+.accessible .action_btn label { opacity: 1; }
 .settings .close_open .action_btn label {
   color: #cdc4b0;
   z-index: 50;
