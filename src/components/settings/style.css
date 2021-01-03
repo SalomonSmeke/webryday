@@ -1,0 +1,108 @@
+.action_btn { user-select: none; }
+.action_btn input { display: none; width: 0rem; height: 0rem; }
+.action_btn label { cursor: pointer; }
+
+.close_open {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close_open .action_btn label {
+  color: #111;
+  width: 10rem;
+  text-align: center;
+  font-size: 4.7rem;
+  line-height: 2.7rem;
+  opacity: 60%;
+  transition: opacity 0.1s ease, font-size 0.1s ease, text-shadow 0.1s ease;
+}
+.close_open .action_btn label:hover {
+  font-size: 5rem;
+  line-height: 2.8rem;
+  opacity: 100%;
+}
+.accessible .action_btn label { opacity: 100%; }
+.settings .close_open .action_btn label {
+  color: #cdc4b0;
+  z-index: 50;
+}
+
+.settings {
+  font-weight: bold;
+  border: 1.6rem solid #cdc4b0;
+  z-index: 50;
+  font-size: 2.5rem;
+  color: #cdc4b0;
+}
+div.settings {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 5rem 10vw 0vh 10vw;
+  background: rgba(16, 16, 16, .85);
+  backdrop-filter: blur(.8rem);
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: max(4rem, 8vh);
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+div.settings.accessible { background: rgba(16, 16, 16, .96); }
+.settings heading { font-size: 4rem; }
+.settings a {
+  color: inherit;
+  text-decoration-color: #cdc4b0;
+  text-decoration-thickness: .1em;
+  text-underline-offset: .05em;
+}
+.settings nav {
+  color: white;
+  grid-auto-flow: column;
+  grid-column-gap: 6rem;
+  align-content: center;
+  justify-content: center;
+  display: grid;
+}
+.settings nav a {
+  display: block;
+  background-size: contain;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.github { background-image: url("/assets/github.svg"); }
+.bug { background-image: url("/assets/bug.svg"); }
+.ssmeke { background-image: url("/assets/earth.svg"); }
+.info { background-image: url("/assets/info.svg"); }
+
+.settings .preference_grid {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.settings .preference_grid .action_btn label {
+  text-decoration: underline;
+  text-decoration-color: #cdc4b0;
+  text-decoration-thickness: .1em;
+  text-underline-offset: .05em;
+  cursor: pointer;
+  display: block;
+  padding: 0 3rem 0 3rem;
+  height: 6rem;
+  line-height: 6rem;
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+.settings .preference_grid .action_btn label:hover {
+  color: #111;
+  background-color: #cdc4b0;
+}

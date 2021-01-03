@@ -1,6 +1,6 @@
 {
   "name": "webryday-calendar",
-  "short_name": "webryday-calendar",
+  "short_name": "webryday",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
