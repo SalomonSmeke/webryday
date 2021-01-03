@@ -78,10 +78,10 @@ div.settings.accessible { background: rgba(16, 16, 16, .96); }
   width: 3.5rem;
   height: 3.5rem;
 }
-.github { background-image: url("/assets/github.svg"); }
-.bug { background-image: url("/assets/bug.svg"); }
-.ssmeke { background-image: url("/assets/earth.svg"); }
-.info { background-image: url("/assets/info.svg"); }
+.github { background-image: url('/assets/links/github.svg'); }
+.bug { background-image: url('/assets/links/bug.svg'); }
+.ssmeke { background-image: url('/assets/links/earth.svg'); }
+.info { background-image: url('/assets/links/info.svg'); }
 
 .settings .preference_grid {
   font-weight: bold;
