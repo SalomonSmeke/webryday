@@ -109,7 +109,7 @@
   margin-bottom: -2.6rem;
   display: block;
   background-image: url('/assets/hex_button/spacer.svg');
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .day:last-child::after { content: none; }
