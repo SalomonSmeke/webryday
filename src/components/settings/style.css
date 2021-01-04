@@ -102,6 +102,9 @@ div.settings.accessible { background: rgba(16, 16, 16, .96); }
   line-height: 6rem;
   transition: background-color 0.1s ease, color 0.1s ease;
 }
+@media only screen and (max-height: 550px) {
+  .settings nav a { width: 2.5rem; height: 2.5rem; }
+}
 .settings .preference_grid .action_btn label:hover {
   color: #111;
   background-color: #cdc4b0;
