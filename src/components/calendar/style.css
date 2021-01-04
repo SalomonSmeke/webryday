@@ -73,7 +73,6 @@
   user-select: none;
   text-align: center;
   vertical-align: middle;
-  box-sizing: content-box;
 }
 
 .day input { display: none; width: 0rem; height: 0rem; }

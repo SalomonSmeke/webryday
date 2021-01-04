@@ -1,4 +1,5 @@
 * { box-sizing: border-box; }
+/* Safari font scaling is messed up, which means this font size based style breaks at zoomed-out levels. */
 html {
   font-size: 62.5%;
   -webkit-text-size-adjust: none;
@@ -14,7 +15,7 @@ html, body {
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility;
 }
 
 body { padding: 10rem 10vw 15vh 10vw; }
